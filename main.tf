@@ -24,3 +24,5 @@ resource "vault_jwt_auth_backend_role" "azure_role" {
 
 data "azuread_client_config" "current" {}
 
+
+
